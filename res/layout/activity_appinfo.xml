@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	    <LinearLayout
+	        android:id="@+id/linear_appinfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/appinfo_icon"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@+id/appinfo_icon"
+	        android:layout_toRightOf="@+id/appinfo_icon"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/appinfo_name"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="应用标题"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+            	android:ellipsize="end"
+            	android:singleLine="true" />
+
+	        <TextView
+	            android:id="@+id/appinfo_type"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="分类"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    </LinearLayout>
+
+	    <ImageView
+	        android:id="@+id/appinfo_icon"
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="7dip"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/ic_launcher" />
+
+	    <Button
+	        android:id="@+id/appinfo_button_download"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/appinfo_icon"
+	        android:text="下载" />
+	    
+	    <Button
+	        android:id="@+id/appinfo_button_forum"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/appinfo_button_download"
+	        android:text="评论" />
+
+
+	    <Button
+	        android:id="@+id/appinfo_button_info"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/appinfo_button_forum"
+	        android:text="信息" />
+
+	    <Button
+	        android:id="@+id/appinfo_button_text"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/appinfo_button_forum"
+	        android:layout_toRightOf="@+id/appinfo_button_info"
+	        android:text="介绍" />
+
+	    <Button
+	        android:id="@+id/appinfo_button_news"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/appinfo_button_text"
+	        android:layout_alignBottom="@+id/appinfo_button_text"
+	        android:layout_toRightOf="@+id/appinfo_button_text"
+	        android:text="更新" />
+	    
+	    <Button
+	        android:id="@+id/appinfo_button_googleplay"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/appinfo_button_forum"
+	        android:layout_toRightOf="@+id/appinfo_button_news"
+	        android:text="市场" />
+	    
+	    
+	    <TextView
+	        android:id="@+id/appinfo_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Small Text"
+	        android:layout_margin="10dip"
+	        android:layout_below="@+id/appinfo_button_news"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <Gallery
+	        android:id="@+id/appinfo_screenshot"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/appinfo_text" />
+	    
+	</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/list_last_page_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/button_last_page" />
+
+    <Button
+        android:id="@+id/list_next_page_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/button_next_page" />
+
+
+
+    <Button
+        android:id="@+id/list_jump_page_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/list_next_page_button"
+        android:text="@string/button_jump_page" />
+
+    <EditText
+        android:id="@+id/list_jump_page_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/list_jump_page_button"
+        android:layout_alignBottom="@+id/list_next_page_button"
+        android:ems="3"
+        android:inputType="number" />
+
+     <TextView
+         android:id="@+id/list_page_show"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/list_next_page_button"
+         android:layout_toLeftOf="@+id/list_jump_page_editText"
+         android:text="TextView" />
+
+</RelativeLayout>

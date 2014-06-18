@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">萌萌安卓</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="button_cancle">取消</string>
+    <string name="button_ok">确定</string>
+    <string name="button_exit">退出</string>
+    <string name="button_retry">重试</string>
+    <string name="button_update">升级</string>
+    <string name="button_last_page">上一页</string><string name="button_next_page">下一页</string>
+    <string name="dialog_title_info">提示</string>
+    <string name="dialog_title_internet_connect_failed">网络连接失败</string>
+    <string name="dialog_message_checkupdate">检测到新版本，是否升级？\n更新内容请到http://bbs.moeapk.com了解</string>
+    <string name="dialog_message_internet_connect_failed">请检查您的网络设置，确保信号良好后再试。</string>
+    <string name="dialog_title_internet_noconnect">无连接</string>
+    <string name="dialog_message_internet_noconnect">没有检测到可用的网络连接（无可用网关），请连接网络后点击重试。</string>
+    <string name="dialog_title_api_update">服务器接口已变更</string>
+    <string name="dialog_message_api_update">服务器的数据接口已经发生了改变，本客户端必须进行升级，若强制接续，则非常可能导致程序崩溃！</string>
+    <string name="toast_on_the_first_page">已经是第一页了(&gt;^ω^&lt;)</string>
+    <string name="toast_on_the_last_page">已经是最后一页了哦(⊙ｏ⊙)</string>
+    <string name="textview_get_app_info_failed">获取应用信息失败</string>
+    <string name="textview_app_views">查看次数</string>
+    <string name="textview_app_downloads">下载次数</string>
+    <string name="textview_app_update_time">更新时间</string>
+    <string name="textview_app_system_require">系统要求</string>
+    <string name="textview_app_age_classification">年龄分级</string>
+    <string name="textview_app_developer">开发者  </string>
+    <string name="title_appinfo">应用信息</string>
+    <string name="title_choose_version">请选择一个版本</string>
+    <string name="title_viewscreenshot">查看应用截图</string>
+    <string name="menu_website">转到网页版</string>
+    <string name="dialog_firstrun_title">萌萌安卓</string>
+    <string name="dialog_firstrun_text">欢迎使用萌萌安卓客户端\n这里有大量ACG应用哦\n如果你喜欢，别忘了到网站获取更多的内容哦 ﾟ ∀ﾟ)ノ\nhttp://moeapk.com\n\n难免有bug请务必报告</string>
+    <string name="toast_welcome_to_use">尽情使用吧</string>
+    <string name="button_jump_page">跳页</string>
+    <string name="menu_clear_cache">清除缓存</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_exit">退出</string>
+    <string name="button_goto_website">前往网站</string>
+    <string name="button_goto_forum">前往论坛</string>
+    <string name="textview_about_text">这个应用是萌萌安卓网的客户端\n一切皆为ACG服务\n网站上有更多内容，点击上面两个按钮可以前往哦\n网站:http://moeapk.com\n\nQQ群交流：259076133\n\n这个应用是一个开源项目，由 Attect 主创\nGitHub项目名：MoeApkClient\n喜欢这个应用一定要访问网站哦\n还有尽量向身边喜欢ACG的朋友推荐哦\n\n参与此版本开发人员:\nAttect\n\n\n下面是本应用的直接下载地址，可以请复制给朋友</string>
+    <string name="toast_clear_cache_finish">缓存清理完毕</string>
+</resources>

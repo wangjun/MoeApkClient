@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/about_icon_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher" />
+
+
+        <Button
+            android:id="@+id/about_website_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/about_icon_image"
+            android:text="@string/button_goto_website" />
+        
+        <Button
+            android:id="@+id/about_forum_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/about_website_button"
+            android:text="@string/button_goto_forum" />
+        
+        <TextView
+            android:id="@+id/about_text_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/about_forum_button"
+            android:text="@string/textview_about_text" />
+
+        <EditText
+            android:id="@+id/about_editText_myurl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/about_text_textview"
+            android:text="http://api.moeapk.com/client/download"
+            android:singleLine="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+</ScrollView>
